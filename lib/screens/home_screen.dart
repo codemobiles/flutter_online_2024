@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application/lesson/my_text_widget.dart';
+import 'package:flutter_application/lesson/ep20/my_button_widget.dart';
+import 'package:flutter_application/lesson/ep19/my_text_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,9 +15,7 @@ class HomeScreen extends StatelessWidget {
       )),
       body: const Center(
         child: Column(
-          children: [
-            MyTextWidget(),
-          ],
+          children: [MyTextWidget(), MyButtonsWidget()],
         ),
       ),
     );
