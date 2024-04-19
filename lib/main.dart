@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/lesson/my_stateful.dart';
 import 'package:flutter_application/lesson/my_stateless.dart';
+import 'package:flutter_application/screens/home_screen.dart';
 import 'package:http/http.dart' as http;
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyStatefulWidget(),
+      home: HomeScreen(),
     );
   }
 }
