@@ -4,6 +4,7 @@ import 'package:flutter_application/lesson/ep19/my_text_widget.dart';
 import 'package:flutter_application/lesson/ep21/my_image_widget.dart';
 import 'package:flutter_application/lesson/ep22/my_container_widget.dart';
 import 'package:flutter_application/lesson/ep23/my_row_widget.dart';
+import 'package:flutter_application/lesson/ep24/my_column_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -24,6 +25,7 @@ class HomeScreen extends StatelessWidget {
             MyImageWidget(),
             MyContainerWidget(),
             MyRowWidget(),
+            MyColumnWidget()
           ],
         ),
       ),
