@@ -16,9 +16,8 @@ class MyContainerWidget extends StatelessWidget {
             borderRadius: BorderRadius.circular(12),
           ),
           margin: const EdgeInsets.all(10.0),
-          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 60.0),
-          // width: 128.0,
-          // height: 128.0,
+          width: 128.0,
+          height: 128.0,
           child: const Text(
             'Container',
             textAlign: TextAlign.center,
