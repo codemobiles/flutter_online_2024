@@ -17,7 +17,8 @@ class HomeScreen extends StatelessWidget {
         'CodeMobile Flutter',
         style: TextStyle(fontWeight: FontWeight.bold),
       )),
-      body: const Center(
+      body: const SingleChildScrollView(
+        padding: EdgeInsets.symmetric(vertical: 10),
         child: Column(
           children: [
             MyTextWidget(),
@@ -25,7 +26,12 @@ class HomeScreen extends StatelessWidget {
             MyImageWidget(),
             MyContainerWidget(),
             MyRowWidget(),
-            MyColumnWidget()
+            MyColumnWidget(),
+            MyRowWidget(),
+            MyRowWidget(),
+            MyRowWidget(),
+            MyRowWidget(),
+            MyRowWidget(),
           ],
         ),
       ),
