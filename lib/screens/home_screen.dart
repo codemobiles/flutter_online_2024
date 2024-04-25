@@ -7,6 +7,8 @@ import 'package:flutter_application/lesson/ep22/my_container_widget.dart';
 import 'package:flutter_application/lesson/ep23/my_row_widget.dart';
 import 'package:flutter_application/lesson/ep24/my_column_widget.dart';
 import 'package:flutter_application/lesson/ep26/my_sizedbox.dart';
+import 'package:flutter_application/lesson/ep27/my_icon_widget.dart';
+import 'package:flutter_application/lesson/ep28/my_icon_button.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -34,7 +36,9 @@ class HomeScreen extends StatelessWidget {
             MyRowWidget(),
             MyRowWidget(),
             MyRowWidget(),
-            MySizedBoxWidget()
+            MySizedBoxWidget(),
+            MyIconWidget(),
+            MyIconButtonWidget()
           ],
         ),
       ),
